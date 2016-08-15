@@ -1,0 +1,6 @@
+# UniversalRecyclerViewAdapter
+Android逃离RecyclerViewAdapter的地狱－针对多个View Type的组合实现方案。
+AdapterDelegate：每个AdapterDelegate对象对应一个item type view;
+AdapterDelegateManager：负责管理所有AdapterDelegate，约定每个position应该展示的item type。
+UniversalRecyclerAdapter：通用Adapter。
+UniversalViewHolder：通用ViewHolder。
